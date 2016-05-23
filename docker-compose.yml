@@ -1,0 +1,7 @@
+db:
+    image: rethinkdb
+    volumes: 
+        - ./:/global
+    ports:
+        - 28015:28015
+        - 8080:8080
